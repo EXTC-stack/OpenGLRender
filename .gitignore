@@ -1,0 +1,21 @@
+# ===== Visual Studio / IDE =====
+.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.VC.opendb
+
+# ===== 构建输出目录（任意层级的 x64 都排除） =====
+x64/
+OpenGLRender/x64/
+
+# ===== 构建中间产物（x64 输出目录内的兜底） =====
+*.obj
+*.pdb
+*.ilk
+*.tlog
+
+# ===== 临时文件 =====
+*.log
+Thumbs.db
+*.tmp
